@@ -17,4 +17,4 @@
     become_user : root
 
   - name: Deploy Docker Container
-    command: docker run -itd -p 8081:8081 tsak43g//insure-me
+    command: docker run -itd -p 8081:8081 tsak43g/insure-me
